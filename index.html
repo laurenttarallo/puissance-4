@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>PUISSANCE 4</title>
+  </head>
+
+  <body>
+    <h1>
+      <a href="https://fontmeme.com/fr/police-des-gardiens-de-la-galaxie/"
+        ><img
+          src="https://fontmeme.com/permalink/221207/57f0d1626bb98bf104d18e5fe39c119f.png"
+          alt="police-des-gardiens-de-la-galaxie"
+          border ="0"
+      /></a>
+    </h1>
+    <div class="winGame">
+      <h2><span id="win"></span></h2>
+    </div>
+    <button class="resetMode" onclick="reset()">RESTART GAME</button>
+    <div id="bout">
+      <a class="buttonStyle" onClick="togglePlay()">SOUND HERE</a>
+
+       <!-- <span>
+        <input type="radio" id="pvp" name="game" onClick="getModeValue()" />
+        <label for="playermode">PVP</label>
+      </span>
+      <span>
+        <input type="radio" id="cpu" name="game" onClick="getModeValue()" />
+        <label for="cpumode">SOLO</label>
+      </span> -->
+
+      <!-- <audio id="audioPlayer">
+<source src="./assets/images/FOREST.mp3"></source>
+
+  </audio>
+  <button class="control" onclick="play('audioPlayer', this)">Play</button>
+  
+  <button class="control" onclick="resume('audioPlayer')">Stop</button>
+   -->
+    </div>
+    <main>
+      <div class="grid" id="truc">
+        <div class="row">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+      </div>
+      <!-- <button id="sound" onclick="playsound()">play</button> -->
+      <audio
+        id="myAudio"
+        src="./assets/sound/FOREST.mp3"
+        preload="auto"
+      ></audio>
+     
+    </main>
+    
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/test.js"></script>
+  </body>
+</html>
